@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Bienvenidos a [Nombre del Municipio]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        main {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            text-align: left;
+        }
+        h1 {
+            color: #004080;
+            margin-top: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #004080;
+        }
+        .sitio {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+            padding: 10px;
+            text-align: center;
+        }
+        .sitio img {
+            width: 300px;
+            height: 200px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Descubre [Nombre del Municipio]</h1>
+    <main>
+        <section>
+            <h2 align="center">Historia</h2>
+            <p align="center">Aquí puedes agregar información sobre la historia del municipio.</p>
+        </section>
+        
+        <section>
+            <h2 align="center">Sitios Emblemáticos</h2>
+            <div class="sitio">
+                <img src="IMG_0122.JPG" alt="Imagen del sitio 1" />
+                <div>
+                    <h3>[Nombre del Sitio 1]</h3>
+                    <p>Descripción del sitio 1.</p>
+                </div>
+            </div>
+            
+            <div class="sitio">
+                <img src="IMG_0122.JPG" alt="Imagen del sitio 2" />
+                <div>
+                    <h3>[Nombre del Sitio 2]</h3>
+                    <p>Descripción del sitio 2.</p>
+                </div>
+            </div>
+            
+            <div class="sitio">
+                <img src="IMG_0122.JPG" alt="Imagen del sitio 3" />
+                <div>
+                    <h3>[Nombre del Sitio 3]</h3>
+                    <p>Descripción del sitio 3.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
